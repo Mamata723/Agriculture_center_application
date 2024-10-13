@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminmaster.master.cs" Inherits="WebApplication2.admin.adminmaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title><link href="../stylesheet/master.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 127px;
+            height: 86px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ul>
+             <li>
+                 <img src="../image/images1.jpg" class="auto-style1" />
+               
+            </li>
+            <li>
+                <a class=":active" href="stocks.aspx">stocks</a>
+            </li>
+            
+             <li>
+               <a class=":active" href="category.aspx">category</a>
+            </li>
+            <li>
+                <a class=":active" href="customer.aspx">customer</a>
+            </li>
+
+            <li>
+                <a class=":active" href="WebForm1.aspx">supplier</a>
+            </li>
+            <li>
+                <a class=":active" href="employee.aspx">employee</a>
+            </li>
+             <li>
+                <a class=":active" href="sales.aspx">sales</a> 
+                
+            </li>
+            <li>
+                <a class=":active" href="logout.aspx">logout</a>
+                
+            </li>
+        </ul>
+            <asp:ContentPlaceHolder ID="MyContent" runat="server">
+                <p>
+                    <br />
+                </p>
+            </asp:ContentPlaceHolder>
+      
+    
+         </form>
+      
+    
+    <p>
+        &nbsp;
+</body>
+</html>
